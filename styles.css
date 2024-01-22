@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #userList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
